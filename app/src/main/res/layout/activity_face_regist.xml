@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00aaee">
+    <TextView android:id="@+id/tvTitle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="出租屋视频门禁系统"
+              android:textSize="@dimen/start_title_font_size"
+              android:textColor="@color/white"
+              android:gravity="center_horizontal"
+              android:layout_marginTop="@dimen/home_title_margin_top"
+              android:textStyle="bold"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/white"
+            android:gravity="center">
+        <com.example.testvedio.util.ResizeAbleSurfaceView
+                android:id="@+id/preview"
+                android:layout_width="@dimen/face_regist_surface_width"
+                android:layout_height="@dimen/face_regist_surface_height"
+                android:layout_margin="@dimen/face_check_surface_margin"
+        />
+    </LinearLayout>
+
+    <ImageView android:id="@+id/imageview"
+               android:layout_width="350px"
+               android:layout_height="350px"
+                android:layout_marginTop="20px"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xxxxxx"
+            android:textSize="@dimen/home_name_font_size"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/face_check_text_margin_bottom"/>
+</RelativeLayout>

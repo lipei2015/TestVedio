@@ -1,0 +1,78 @@
+<resources>
+    <!--  Toolbar 高度 -->
+    <dimen name="toolbarHeight">48dp</dimen>
+
+    <!--  Tab 高度 -->
+    <dimen name="tabHeight">38dp</dimen>
+
+    <!-- 所有横向条的高度（自定义横向条使用）  -->
+    <dimen name="barHeight">50dp</dimen>
+
+    <!-- 所有页面常规的padding值 -->
+    <dimen name="padding">12dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+
+    <!-- radius大小 -->
+    <dimen name="radius">3dp</dimen>
+    <dimen name="radius9">9dp</dimen>
+
+    <!-- 水平线高度 -->
+    <dimen name="lineHeight_10dp">10dp</dimen>
+    <dimen name="lineHeight">15dp</dimen>
+    <dimen name="lineHeight_15dp">15dp</dimen>
+    <dimen name="lineHeight_20dp">20dp</dimen>
+
+    <dimen name="start_title_font_size">30sp</dimen>
+    <dimen name="start_text_font_size">23sp</dimen>
+    <dimen name="start_code_size">350px</dimen>
+    <dimen name="start_text_margin_top_1">20px</dimen>
+    <dimen name="start_text_margin_top_2">20px</dimen>
+    <dimen name="start_text_margin_bottom">30px</dimen>
+
+    <dimen name="home_title_margin_top">60px</dimen>
+    <dimen name="home_name_font_size">23sp</dimen>
+    <dimen name="home_vedio_height">560px</dimen>
+    <dimen name="home_vp_height">240px</dimen>
+    <dimen name="home_vp_image_height">170px</dimen>
+    <dimen name="home_vp_image_width">280px</dimen>
+    <dimen name="home_vp_padding_bottom">20px</dimen>
+    <dimen name="home_vp_title_size">20sp</dimen>
+    <dimen name="vedio_item_text_margin_top">15px</dimen>
+    <dimen name="vedio_item_image_margin_top">40px</dimen>
+    <dimen name="vedio_item_image_margin">25px</dimen>
+    <dimen name="home_bottom_text_margin_margin_top">160px</dimen>
+
+    <!--  -->
+    <dimen name="list_dialog_padding">40px</dimen>
+    <dimen name="list_dialog_item_height">80px</dimen>
+    <dimen name="list_dialog_item_margin_top">20px</dimen>
+    <dimen name="list_dialog_item_width">500px</dimen>
+    <dimen name="list_dialog_item_size">26sp</dimen>
+
+    <dimen name="dialog_item_text_size">25sp</dimen>
+    <dimen name="dialog_title_text_size">25sp</dimen>
+    <dimen name="dialog_input_text_size">26sp</dimen>
+    <dimen name="dialog_input_promet_text_size">21sp</dimen>
+    <dimen name="dialog_confirm_padding">50px</dimen>
+    <dimen name="dialog_line_spacing_extra">20px</dimen>
+    <dimen name="dialog_success_img_height">70px</dimen>
+
+    <dimen name="face_check_text_margin_bottom">50px</dimen>
+    <dimen name="face_check_surface_margin">15px</dimen>
+    <dimen name="face_check_surface_height">924px</dimen>
+    <dimen name="face_check_surface_width">600px</dimen>
+
+    <dimen name="face_regist_promet_margin_top">15px</dimen>
+    <dimen name="face_regist_surface_width">600px</dimen>
+    <dimen name="face_regist_surface_height">620px</dimen>
+
+    <dimen name="zxing_text_margin_top">20px</dimen>
+    <dimen name="zxing_secend_text_size">26sp</dimen>
+
+    <dimen name="bind_card_dialog_item_width">300px</dimen>
+    <dimen name="bind_card_dialog_item_height">45px</dimen>
+    <dimen name="dialog_qrcode_width">135px</dimen>
+    <dimen name="bind_card_dialog_layout_padding">40px</dimen>
+    <dimen name="bind_card_dialog_layout_padding_top">90px</dimen>
+    <dimen name="bind_card_dialog_item_text_size">25sp</dimen>
+</resources>
